@@ -6,8 +6,8 @@ from datetime import datetime
 import os
 
 conn = Connection(
-    conn_id="aws_demo",
-    conn_type="aws",
+    conn_id="azure_conn",
+    conn_type="azure",
     extra={
         "config_kwargs": {
             "signature_version": "unsigned",
